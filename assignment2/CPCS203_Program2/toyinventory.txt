@@ -1,0 +1,58 @@
+200
+ADD_TOY
+9
+123456 duplo 1 5 100 bigblocks boy/girl buildskills share
+100 10
+234561 Barbie 10 16 90 girls fun dressing playHouse
+50 0
+345612 mindstorm 16 99 400 robotics boys/girls programming buildskills 
+10 5
+456123 HotWheelsMetaHaulerTruck 5 16 60 boys load-and-hauler cars fun
+300 30
+561234 PlayDoh-CaseofColors-Packof10 2 4 8 modelling toddlers craft share
+200 10
+612345 ExplodingKittens 5 7 20 boys/girls fun card share
+50 0
+345612 mindstorm 16 99 400 robotics boys/girls programming buildskills 
+15 5
+135246 Connect4Game 8 13 8 boys/girls boardGame mintal fun
+30 30
+351246 Snakes&Ladders 4 9 8 boys/girls boardGame multiplayer fun
+30 0
+ADD_MANUFACTURER
+5
+12345 Lego P.O.Box12345-Jeddah-21552-KSA 123456 345612 -1
+23451 Mattel P.O.Box23451-Jeddah-21553-KSA 234561 456123 -1
+34512 Hasbro P.O.Box34512-Jeddah-21553-KSA 135246 351246 -1
+45123 ExplodingKittensLLC P.O.Box45123-Jeddah-21553-KSA 612345 -1
+51234 Play-Doh P.O.Box45123-Jeddah-21559-KSA 561234 -1
+ADD_SUPPLIER
+3
+1234 Ahmed-Co P.O.Box54321-Jeddah-21550-KSA 123456 345612 -1
+2341 Ali-Co P.O.Box43215-Jeddah-21549-KSA 234561 456123 561234 -1
+3412 Bilal-Co P.O.Box43215-Jeddah-21549-KSA 135246 612345 351246 -1
+COMPUTE_DISCOUNT
+123456 345612 456123 561234 135246 -1
+DELETE_TOY
+351246 
+SEARCH_FOR_TOY
+1
+351246 
+SEARCH_FOR_TOY
+2
+0 Connect4Game 
+SEARCH_FOR_TOY
+3
+0 buildskills boys
+ADD_DISCOUNT
+612345 5
+REMOVE_DISCOUNT
+135246 
+INCREASE_AMOUNT
+234561 80
+REDUCE_AMOUNT
+456123 50
+PRINT_ALL_TOYS_FOR_MANUFACTURER
+23451 
+PRINT_TOYS_WITH_LESS_THAN_AMOUNT
+150

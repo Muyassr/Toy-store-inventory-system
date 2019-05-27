@@ -1,0 +1,127 @@
+Programming Assignment 2 _______Mon Mar 28 17:52:10 AST 2016
+______________________________________________________________________
+COMMAND: ADD_TOY
+____________________________________________________________________
+Serial Number 	 Name 			 Age Group 	 Price 	 Description
+    123456                         duplo   1-   5      100.00    bigblocks boy/girl buildskills share
+    234561                        Barbie  10-  16       90.00            girls fun dressing playHouse
+    345612                     mindstorm  16-  99      400.00 robotics boys/girls programming buildskills 
+    456123      HotWheelsMetaHaulerTruck   5-  16       60.00           boys load-and-hauler cars fun
+    561234 PlayDoh-CaseofColors-Packof10   2-   4        8.00          modelling toddlers craft share
+    612345              ExplodingKittens   5-   7       20.00               boys/girls fun card share
+    135246                  Connect4Game   8-  13        8.00         boys/girls boardGame mintal fun
+    351246                Snakes&Ladders   4-   9        8.00    boys/girls boardGame multiplayer fun
+
+
+COMMAND: ADD_MANUFACTURER
+_______________________________________________________________________________________________________
+ ID Number                          Name                                  Adress
+     12345                          Lego           P.O.Box12345-Jeddah-21552-KSA
+     23451                        Mattel           P.O.Box23451-Jeddah-21553-KSA
+     12345                          Lego           P.O.Box12345-Jeddah-21552-KSA
+     23451                        Mattel           P.O.Box23451-Jeddah-21553-KSA
+     51234                      Play-Doh           P.O.Box45123-Jeddah-21559-KSA
+     45123           ExplodingKittensLLC           P.O.Box45123-Jeddah-21553-KSA
+     12345                          Lego           P.O.Box12345-Jeddah-21552-KSA
+     34512                        Hasbro           P.O.Box34512-Jeddah-21553-KSA
+     34512                        Hasbro           P.O.Box34512-Jeddah-21553-KSA
+
+
+COMMAND: ADD_SUPPLIER
+_______________________________________________________________________________________________________
+ ID Number                          Name                                  Adress
+      1234                      Ahmed-Co           P.O.Box54321-Jeddah-21550-KSA
+      2341                        Ali-Co           P.O.Box43215-Jeddah-21549-KSA
+      1234                      Ahmed-Co           P.O.Box54321-Jeddah-21550-KSA
+      2341                        Ali-Co           P.O.Box43215-Jeddah-21549-KSA
+      2341                        Ali-Co           P.O.Box43215-Jeddah-21549-KSA
+      3412                      Bilal-Co           P.O.Box43215-Jeddah-21549-KSA
+      1234                      Ahmed-Co           P.O.Box54321-Jeddah-21550-KSA
+      3412                      Bilal-Co           P.O.Box43215-Jeddah-21549-KSA
+      3412                      Bilal-Co           P.O.Box43215-Jeddah-21549-KSA
+
+COMMAND: COMPUTE_DISCOUNT
+____________________________________________________________________
+The Toy Information after Calculating new discounted Cost is
+duplo	90.0
+
+COMMAND: COMPUTE_DISCOUNT
+____________________________________________________________________
+The Toy Information after Calculating new discounted Cost is
+mindstorm	380.0
+
+COMMAND: COMPUTE_DISCOUNT
+____________________________________________________________________
+The Toy Information after Calculating new discounted Cost is
+mindstorm	380.0
+
+COMMAND: COMPUTE_DISCOUNT
+____________________________________________________________________
+The Toy Information after Calculating new discounted Cost is
+HotWheelsMetaHaulerTruck	42.0
+
+COMMAND: COMPUTE_DISCOUNT
+____________________________________________________________________
+The Toy Information after Calculating new discounted Cost is
+PlayDoh-CaseofColors-Packof10	7.2
+
+COMMAND: COMPUTE_DISCOUNT
+____________________________________________________________________
+The Toy Information after Calculating new discounted Cost is
+Connect4Game	5.6
+
+COMMAND: DELETE_TOY
+____________________________________________________________________
+The Deleted Toy is
+Snakes&Ladders
+
+COMMAND: SEARCH_FOR_TOY
+____________________________________________________________________
+The Toy with Serial Number:  351246 is NOT FOUND in inventory
+
+COMMAND: SEARCH_FOR_TOY
+____________________________________________________________________
+The Toy with Name: Connect4Game is FOUND and its Serial Number is
+135246
+
+COMMAND: SEARCH_FOR_TOY
+____________________________________________________________________
+The Toy with attribute: buildskills & boysis FOUND and its Serial Number & Name is
+123456 duplo
+345612 mindstorm
+456123 HotWheelsMetaHaulerTruck
+612345 ExplodingKittens
+135246 Connect4Game
+
+COMMAND: ADD_DISCOUNT
+____________________________________________________________________
+The Toy Information after adding Discount is
+ExplodingKittens	5.0
+
+COMMAND: REMOVE_DISCOUNT
+____________________________________________________________________
+The Discount for Toy has been removed.
+Connect4Game	0.0
+
+COMMAND: INCREASE_AMOUNT
+____________________________________________________________________
+The Toy updated amount is
+Barbie	130
+
+COMMAND: REDUCE_AMOUNT
+____________________________________________________________________
+The Toy updated amount is
+HotWheelsMetaHaulerTruck	250
+
+COMMAND: PRINT_ALL_TOYS_FOR_MANUFACTURER(SN: 23451)
+____________________________________________________________________
+Toy1 = Barbie
+Toy2 = HotWheelsMetaHaulerTruck
+
+PRINT_TOYS_WITH_LESS_THAN_AMOUNT(150)
+____________________________________________________________________
+Toy1: duplo 100.0
+Toy2: Barbie 90.0
+Toy3: mindstorm 400.0
+Toy4: ExplodingKittens 20.0
+Toy5: Connect4Game 8.0
